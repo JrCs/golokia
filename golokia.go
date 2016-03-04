@@ -10,6 +10,8 @@ import (
 	"sort"
 )
 
+const JolokiaDefaultPort int = 8778
+
 /* Jolokia Client properties connecting a Jolokia agent */
 type JolokiaClient struct {
 	// The url of the jolokia agent
